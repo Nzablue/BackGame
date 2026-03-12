@@ -7,7 +7,7 @@ const port = 3000;
 app.use(express.json());
 app.use(cors())
 
-const MONGO_URL = 'mongodb+srv://nazareyesbaccaro_db_user:Tg8guiEMisOD7Ahd@clusterjc.bdj8tfe.mongodb.net/?retryWrites=true&w=majority&appName=ClusterJC'
+const MONGO_URL = 'mongodb+srv://nazareyesbaccaro_db_user:nazapro21@cluster0.7udvwcp.mongodb.net/?appName=Cluster0'
 //const MONGO_URL = 'mongodb+srv://jacobogarcesoquendo:aFJzVMGN3o7fA38A@cluster0.mqwbn.mongodb.net/NazarenoReyesBaccaro'
 mongoose.connect(MONGO_URL)
     .then(() => console.log(chalk.green('MongoDB Conectado')))
